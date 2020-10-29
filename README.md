@@ -3,10 +3,10 @@
 # Details
 * Topic: Webpage (Frontend)
 * Name: Student Portal System
-* Frontend:
-** Framework: React
-** Deploy on: Github Pages
-** Container: Docker
+* Frontend
+  * Framework: React
+  * Deploy on: Github Pages
+  * Container: Docker
 
 # Theme:
 * Color: White, Blue, Green
