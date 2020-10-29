@@ -16,9 +16,9 @@
 * Introduction
 * Education and Work Experience
 * Showcase
-** [Icons] : Click for filtering showcase
-** Robotics Engineer
-*** [Banners] Solidworks, MATLAB, ROS
-*** [Banners] C, C++, Python
+  * [Icons] : Click for filtering showcase
+  * Robotics Engineer
+    * [Banners] Solidworks, MATLAB, ROS
+    * [Banners] C, C++, Python
 * Contact me
 * Footer
