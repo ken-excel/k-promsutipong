@@ -9,11 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: build app
       run: |
         docker-compose run --rm node ash -c 'cd $REACT_APP_NAME; npm install; yarn build; cp -rf build /usr/src/app/; ls;'
-    - uses: crazy-max/ghaction-github-pages@v1
+    - uses: crazy-max/ghaction-github-pages@v2
       with:
         target_branch: gh-pages
         build_dir: app/build
