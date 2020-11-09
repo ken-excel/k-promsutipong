@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: build app
       run: |
-        docker-compose run --rm node ash -c 'cd $REACT_APP_NAME; npm install; yarn build; cp -rf build /usr/src/app/; ls;'
+        docker-compose run --rm node ash -c 'cd $REACT_APP_NAME; npm install --save --legacy-peer-deps; yarn build; cp -rf build /usr/src/app/; ls;'
     - uses: crazy-max/ghaction-github-pages@v2
       with:
         target_branch: gh-pages
