@@ -1,0 +1,46 @@
+.showcase {
+    padding-top:13vh;
+}
+
+.dev-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  
+.dev-icon {
+    padding: 1% 1%;
+    display: inline;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.dev-icon > img {
+    height: 80px;
+    width: 80px;
+}
+
+.dev-icon > img:hover {
+    color: #645beb;
+}
+.dev-icon > p {
+    font-size: 10px;
+}
+.dev-icon > i:hover ~ p{
+    color: #645beb;
+}
+
+.categories {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.test{
+    height:100px;
+    width:100%;
+    background-color: blue;
+}

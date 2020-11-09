@@ -1,25 +1,63 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { ThemeProvider } from 'styled-components';
+import { lightTheme, darkTheme } from './components/theme';
+import { GlobalStyles } from './components/globalStyles';
+
+import Button from 'react-bootstrap/Button';
+
+import Introduction from './containers/introduction/introduction';
+import Experience from './containers/experience/experience';
+import Showcase from './containers/showcase/showcase';
+import Contact from './containers/contact/contact';
+import Header from './components/header/header';
+
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  let [theme, setTheme] = useState(lightTheme);
+  let toggleTheme = () => {
+    if (theme === lightTheme) {
+      setTheme(darkTheme);
+    } else {
+      setTheme(lightTheme);
+    }
+  }
+
+  let languageStoredInLocalStorage = localStorage.getItem("language");
+  let [language, setLanguage] = useState(
+    languageStoredInLocalStorage ? languageStoredInLocalStorage : "en"
   );
+
+  return (
+    <ThemeProvider theme={theme}>
+      <>
+        <GlobalStyles />
+        <div className="App">
+          <Header className="header"
+            theme = {theme}
+            language = {language}
+            handleSetLanguage = {(language) =>{
+                setLanguage(language);
+                storeLanguageInLocalStorage(language);
+            }}
+          />
+          <Button variant="primary" onClick={toggleTheme}>Toggle theme</Button>
+          <div className="Main">
+            <Introduction language={language}/>
+            <Experience language={language}/>
+            <Showcase language={language}/>
+            <Contact language={language}/>
+          </div>
+        <footer>
+        </footer>
+        </div>
+      </>
+    </ThemeProvider>
+  );
+}
+
+function storeLanguageInLocalStorage(language) {
+  localStorage.setItem("language", language);
 }
 
 export default App;
