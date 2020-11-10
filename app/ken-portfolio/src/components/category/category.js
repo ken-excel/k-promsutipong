@@ -12,10 +12,10 @@ function Category(props) {
     }
     
     return(
-        <div className="category">
-            <Button variant="primary" onClick={toggleExpand}>{props.name}</Button>
+        <div className="category-main">
+            <Button className="expand-button" variant="primary" onClick={toggleExpand}>{props.name}</Button>
             <Collapse in={expand}> 
-                <Paper elevation={4}>
+                <Paper className="expand-div" elevation={4}>
                     <p>contain child components: showcase</p>
                 </Paper>
             </Collapse>

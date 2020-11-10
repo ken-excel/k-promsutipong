@@ -31,21 +31,12 @@ function Showcase(props) {
       break;
     }
   }
-    let [expand, setExpand] = useState(false);
-    let toggleExpand = () => {
-      setExpand(!expand);
-    }
+  
     return( 
       <Fade bottom duration={1000} distance="20px">
           <div className="showcase" id="showcase">
               <div className="showcase-main">
                   <div className="dummy-div">
-                      <h1>h1</h1>
-                      <h2>h2</h2>
-                      <h3>h3</h3>
-                      <h4>h4</h4>
-                      <h5>h5</h5>
-                      <p>p</p>
                       <p className="dummy">{showcase.dummy}</p>
                   </div>
                   <div className="frameworks-main-div">

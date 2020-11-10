@@ -34,13 +34,12 @@
 }
 
 .categories {
+    width:100%;
     list-style: none;
     display: flex;
     flex-direction: column;
 }
 
-.test{
-    height:100px;
+.category {
     width:100%;
-    background-color: blue;
 }

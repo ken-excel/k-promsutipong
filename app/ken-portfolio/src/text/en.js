@@ -119,6 +119,52 @@ const showcase = {
             name: "C",
             url: require("../assets/images/icons/c.png").default
         }
+    ],
+    categories:[
+        {
+            name: "Robotic Engineer",
+            background: "Tohoku University ...",
+            showcases:[
+                {
+                    name: "Wi-Fi Navigation for an Electric Wheelchair",
+                    summary: " ",
+                    paragraphs:["The aim of this research is to contribute to improving the aging situation in Japan in which people need a kind of mobile support. The concept resembles publicly shared bicycles which is being implemented all around the world, but in an electric wheelchair version. Given the electric wheelchair could locate a user in public spaces, it can move to another user once one person finishes using it, thus, provides a cost-efficient solution to this expensive equipment.",
+                    "Regarding technical methodology, we record Wi-Fi signals profile (signal strength to each access point deployed in the environment) at each position in the map and fills the database. Then, we retrieve Wi-Fi signals at the user location and match the signals profile with one we have in the database. Finally, the robot autonomously navigates to the estimated user’s position.",
+                    "This title is my bachelor’s thesis and also my first paper to be published and presented at an international conference."
+                    ],
+                    frameworks:[
+                        {
+                            name: "ROS",
+                            url: require("../assets/images/icons/ros.png").default
+                        },
+                        {
+                            name: "Matlab",
+                            url: require("../assets/images/icons/matlab.png").default
+                        }
+                    ],
+                    languages:[
+                        {
+                            name: "Python",
+                            url: require("../assets/images/icons/python.svg").default
+                        },
+                        {
+                            name: "C++",
+                            url: require("../assets/images/icons/c++.png").default
+                        },
+                        {
+                            name: "C",
+                            url: require("../assets/images/icons/c.png").default
+                        }
+                    ]
+                },
+                {
+                    name: "Olpaso Bot"
+                },
+                {
+                    name: "TMEX"
+                }
+            ]
+        }
     ]
 };
 

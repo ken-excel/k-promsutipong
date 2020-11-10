@@ -41,7 +41,9 @@ function Header(props) {
         <Fade top duration={1000} distance="20px">
             <div className="introduction-main" style={{backgroundColor:theme.inverse_body, color:theme.inverse_text, borderColor:theme.color1} }>
                 <div className="navigation-bar">
-                    <Logo className="introduction-logo"/>
+                    <div className="introduction-logo"> 
+                        <Logo/>
+                    </div>
                     <div className="navigation-text-div">
                         <span style={{color:theme.inverse_text}}>{headertext.upper}</span>
                         <span style={{color:theme.color2}}>{headertext.lower}</span>

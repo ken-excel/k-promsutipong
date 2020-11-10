@@ -7,6 +7,11 @@
     display:flex;
     font-weight: bold;
     border-bottom: ridge 0.2em;
+    flex: 0 0 auto;
+}
+
+.introduction-logo {
+    width:30%;
 }
 
 .navigation-bar {
@@ -18,7 +23,7 @@
 
 .navigation-text-div {
     margin-left:15%;
-    width: 25%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;

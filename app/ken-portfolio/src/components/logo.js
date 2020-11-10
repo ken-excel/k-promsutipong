@@ -5,5 +5,5 @@ export const Logo = styled.div`
     background-size: contain;
     background-image: url(${({ theme }) => theme.logo});
     height: 100%;
-    width: 200px;
+    width: 100%;
 `
