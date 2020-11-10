@@ -9,9 +9,12 @@
     text-align:left;
 }
 
+.expand-collapse {
+    margin-bottom: 3%;
+}
+
 .expand-div {
     width: 100%;
     padding: 2% 2%;
     text-align:left;
-    margin-bottom: 3%;
 }
