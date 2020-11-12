@@ -1,0 +1,9 @@
+.popup-main {
+    border: 'solid 0.2em';
+}
+
+.modal {
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'center';
+}

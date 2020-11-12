@@ -1,7 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import { Fade } from "react-reveal"
-import Collapse from '@material-ui/core/Collapse';
-import Button from 'react-bootstrap/Button';
 
 import Category from '../../components/category/category';
 
@@ -63,14 +61,15 @@ function Showcase(props) {
                       })}
                     </ul>
                   </div>
-                  <div className="showcases-main-div">
+                  <div className="category-main-div">
                     <ul className="categories">
-                      <li className="category">
-                        <Category name="Robotic Engineer"/>
-                      </li>
-                      <li className="category">
-                        <Category name="Web App Developer"/>
-                      </li>
+                      {showcase.categories.map(category => {
+                        return (
+                          <li className="category">
+                            <Category data={category}/>
+                          </li>
+                        );
+                      })}
                     </ul>
                   </div>
               </div>
