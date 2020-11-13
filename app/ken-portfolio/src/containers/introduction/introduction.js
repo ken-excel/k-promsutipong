@@ -31,7 +31,6 @@ function Introduction(props) {
     <Fade bottom duration={1000} distance="40px">
     <div className="introduction" id="introduction">
       <div className="introduction-main">
-        <img className="greeting-img" alt="introduction" src={introduction.image}></img>
         <div className="greeting-div">
           <div className="greeting-title-div">
             <h1 className="greeting-title">

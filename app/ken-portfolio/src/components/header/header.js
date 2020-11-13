@@ -39,9 +39,9 @@ function Header(props) {
 
     return (
         <Fade top duration={1000} distance="20px">
-            <div className="introduction-main" style={{backgroundColor:theme.inverse_body, color:theme.inverse_text, borderColor:theme.color1} }>
+            <div className="navigation-main" style={{backgroundColor:theme.inverse_body, color:theme.inverse_text, borderColor:theme.color1} }>
                 <div className="navigation-bar">
-                    <div className="introduction-logo"> 
+                    <div className="navigation-logo"> 
                         <Logo/>
                     </div>
                     <div className="navigation-text-div">
