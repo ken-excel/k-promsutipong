@@ -1,7 +1,7 @@
 const introduction = {
     title: "Hi, This is Kengkij Promsutipong. Ken for short.",
     paragraph: "A highly motivated student who found the passion in programming after years in robotic field which requires expertise in both software and hardware. I always strive to learn state-of-art technologies and gain new experience.",
-    image: require('../assets/images/ken_pic.jpg').default
+    image: require('../assets/images/ken_pic.png').default
 };
 
 const contact = {

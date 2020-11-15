@@ -4,7 +4,7 @@ import {socialMediaLinks as socialMediaLinks_default} from './en.js'
 const introduction = {
     title: "日本語",
     paragraph: "日本語",
-    image: require('../assets/images/ken_pic.jpg').default
+    image: require('../assets/images/ken_pic.png').default
 };
 
 const contact = {

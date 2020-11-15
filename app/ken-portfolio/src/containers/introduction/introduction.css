@@ -4,10 +4,11 @@
     height: 0;
     padding-top: 66.6%;
     background-blend-mode: darken;
-    background-image: url('../../assets/images/ken_pic.jpg');
+    background-image: url('../../assets/images/ken_pic.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: white;
 }
 
 .greeting-div{
@@ -16,4 +17,29 @@
     bottom:0; 
     left:0; 
     right:0;
+}
+
+.greeting-title-div{
+    margin-top: 3%;
+    margin-left: 3%;
+    padding: 20px 20px;
+    background-color: rgba(0,0,0,0.8);
+    max-width: 40%;
+    text-align: left;
+}
+
+.greeting-title{
+    line-height: 1.2;
+}
+
+.greeting-paragraph-div{
+    margin-top: 4%;
+    margin-left: 3%;
+    padding: 20px 20px;
+    background-color: rgba(0,0,0,0.8);
+    max-width: 40%;
+    text-align: left;
+}
+.greeting-paragraph{
+    line-height: 1.2;
 }

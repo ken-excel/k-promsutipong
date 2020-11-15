@@ -38,9 +38,9 @@ function Introduction(props) {
             </h1>
           </div>
           <div className="greeting-paragraph-div">
-            <h1 className="greeting-paragraph">
+            <h2 className="greeting-paragraph">
                 {introduction.paragraph}
-            </h1>
+            </h2>
           </div>
         </div>
       </div>
