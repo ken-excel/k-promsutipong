@@ -45,14 +45,16 @@ function Experience(props) {
                     >
                       <div className="experience-textbox">
                         <h3 className="vertical-timeline-element-title">{record.title}</h3>
-                        <h4 className="vertical-timeline-element-subtitle">{record.subtitle}</h4>
-                        {record.content.map(record => {
-                          return(
-                            <p>
-                              {record}
-                            </p>
-                          );
-                        })}
+                        <h5 className="vertical-timeline-element-subtitle">{record.subtitle}</h5>
+                        <p className="vertical-timeline-element-context">
+                          {record.content.map(record => {
+                            return(
+                                <span>
+                                {record}<br/>
+                                </span>
+                            );
+                          })}
+                        </p>
                       </div>
                     </VerticalTimelineElement>
                   );

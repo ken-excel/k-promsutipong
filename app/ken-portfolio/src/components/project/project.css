@@ -1,8 +1,4 @@
-.popup-main {
-    border: 'solid 0.2em';
-}
-
-.modal {
+.modal-test{
     display: 'flex';
     align-items: 'center';
     justify-content: 'center';
