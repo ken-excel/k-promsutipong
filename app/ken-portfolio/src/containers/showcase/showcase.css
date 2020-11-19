@@ -9,11 +9,17 @@
     margin-bottom: 0px;
     margin-top: 0px;
     text-align: center;
+    overflow: scroll;
+    -ms-overflow-style: none;
   }
+
+.dev-icons::-webkit-scrollbar {
+    display: none;
+}
   
 .dev-icon {
     padding: 1% 1%;
-    display: inline;
+    display: block;
     margin-right: 5px;
     margin-bottom: 5px;
 }
