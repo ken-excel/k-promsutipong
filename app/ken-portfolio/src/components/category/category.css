@@ -18,3 +18,25 @@
     padding: 2% 2%;
     text-align:left;
 }
+
+.showcases {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+  }
+
+.showcases::-webkit-scrollbar {
+    display: none;
+}
+
+.project {
+    padding: 1% 1%;
+    display: block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
