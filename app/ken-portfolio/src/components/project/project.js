@@ -33,9 +33,13 @@ function Project(props) {
     const project = props.data;
     
     return(
-        <div className="project-main">
-          <p>{project.name}</p>
-          <img src={project.image} onClick={togglePopup}></img>
+        <div className="project-main" onClick={togglePopup}>
+          <div className="project-text-div">
+            <p>{project.name}</p>
+          </div>
+          <div className="project-image-div">
+            <img src={project.image} ></img>
+          </div>
           <Modal 
             className={classes.modal}
             open={popup}

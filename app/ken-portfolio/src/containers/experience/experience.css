@@ -13,10 +13,21 @@
     font-weight: bold !important;
 }
 
-.vertical-timeline-element-title {
+.experience-textbox-title {
     font-weight:bold;
 }
 
-.vertical-timeline-element-subtitle {
+.experience-textbox-subtitle {
     font-weight:bold;
+}
+
+.experience-textbox-context {
+    display:flex;
+    flex-direction: column;
+    list-style: circle;
+}
+
+.experience-textbox-paragraph {
+    text-align: start;
+    padding-top: 1%;
 }

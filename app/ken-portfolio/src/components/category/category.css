@@ -30,7 +30,15 @@
     align-items:center;
 }
 
+.showcases {
+    border-bottom: solid black 2px;
+}
+
+.showcases:last-child {
+    border-bottom: none;
+}
+
 .project {
-    width:50%;
+    width:100%;
 }
 
