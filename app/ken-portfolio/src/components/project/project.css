@@ -1,4 +1,35 @@
 .project-main {
     width: 100%;
-    padding: 5% 5%;
+    display:flex;
+}
+
+.project-text-div {
+    text-align:start;
+    border-right: solid black 2px;
+    padding: 3% 3%;
+    width:70%;
+}
+
+.project-logo-div {
+    display:flex;
+    flex-direction: row;
+}
+
+.project-frameworks-main-div {
+    width: 50%;
+}
+
+.project-languages-main-div {
+    width: 50%;
+}
+
+.project-image-div {
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-image {
+    width:100%;
 }

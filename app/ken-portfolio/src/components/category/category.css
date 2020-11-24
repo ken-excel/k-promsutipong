@@ -19,26 +19,15 @@
     text-align:left;
 }
 
-.showcases {
-    padding-left: 0;
-    list-style: none;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    text-align: center;
+.projects-ul {
     display: flex;
-    flex-wrap: wrap;
-    align-items:center;
+    flex-direction: column;
 }
 
-.showcases {
-    border-bottom: solid black 2px;
+.project-li {
+    padding: 0;
 }
 
-.showcases:last-child {
-    border-bottom: none;
+.project-li:nth-child(odd) {
+    background-color: lightgrey;
 }
-
-.project {
-    width:100%;
-}
-

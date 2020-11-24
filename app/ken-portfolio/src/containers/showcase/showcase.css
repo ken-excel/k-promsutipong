@@ -9,14 +9,23 @@
     margin-bottom: 0px;
     margin-top: 0px;
     text-align: center;
-    overflow: scroll;
-    -ms-overflow-style: none;
-  }
+    overflow: hidden;
+}
+
+.dev-icons:hover {
+    overflow-x: overlay;
+}
 
 .dev-icons::-webkit-scrollbar {
-    display: none;
+    height:10px;
+    background: transparent;
 }
-  
+
+.dev-icons::-webkit-scrollbar-thumb {
+    background: #393812;
+    border-radius: 1ex;
+}
+
 .dev-icon {
     padding: 1% 1%;
     display: block;
@@ -29,14 +38,8 @@
     width: 80px;
 }
 
-.dev-icon > img:hover {
-    color: #645beb;
-}
 .dev-icon > p {
     font-size: 10px;
-}
-.dev-icon > i:hover ~ p{
-    color: #645beb;
 }
 
 .categories {
