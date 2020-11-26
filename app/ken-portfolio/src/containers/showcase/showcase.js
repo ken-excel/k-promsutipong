@@ -34,8 +34,8 @@ function Showcase(props) {
       <Fade bottom duration={1000} distance="20px">
           <div className="showcase" id="showcase">
               <div className="showcase-main">
-                  <div className="dummy-div">
-                      <p className="dummy">{showcase.dummy}</p>
+                  <div className="background-div">
+                      <p className="background">{showcase.background}</p>
                   </div>
                   <div className="frameworks-main-div">
                     <ul className="dev-icons">
