@@ -19,8 +19,9 @@ const useStyles = makeStyles(theme => ({
       backgroundColor: theme.palette.background.paper,
       border: '2px solid #000',
       boxShadow: theme.shadows[5],
-      padding: theme.spacing(2, 4, 3),
+      padding: theme.spacing(5, 5, 5, 5),
       color: 'black',
+      overflow: 'auto'
   },
 }));
 
@@ -38,7 +39,7 @@ function Project(props) {
     return(
         <div className="project-main" onClick={togglePopup}>
           <div className="project-text-div">
-            <h5>{project.name}</h5>
+            <h4 className="project-title">{project.name}</h4>
             <p>{project.summary}</p>
             <div className="project-logo-div">
               <div className="project-frameworks-main-div">
@@ -81,7 +82,17 @@ function Project(props) {
             }}>
             <Fade in={popup}>
               <div className={classes.paper}>
-                  <p>{project.name}</p>
+                <div className="project-popup-text-div">
+                  <h3 className="project-title">{project.name}</h3>
+                  <ul className="project-textbox-context">
+                    {project.paragraphs.map(paragraph => {
+                      return (
+                        <p className="project-textbox-paragraph">
+                            {paragraph}
+                        </p>
+                      );
+                    })}
+                  </ul>
                   <div className="frameworks-main-div">
                     <ul className="dev-icons">
                       {project.frameworks.map(framework => {
@@ -107,6 +118,9 @@ function Project(props) {
                     </ul>
                   </div>
                 </div>
+                <div className="project-popup-image-div">
+                </div>
+              </div>
             </Fade>
           </Modal>
         </div>

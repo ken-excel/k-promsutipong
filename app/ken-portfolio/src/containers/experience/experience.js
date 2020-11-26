@@ -34,6 +34,7 @@ function Experience(props) {
     return(
         <div className="experience" id="experience">
             <div className="experience-main">
+            <p className="experience-title">{experience.title}</p>
             <VerticalTimeline>
               {experience.records.map(record => {
                   return (
