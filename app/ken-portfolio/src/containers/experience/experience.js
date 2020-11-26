@@ -44,17 +44,18 @@ function Experience(props) {
                       icon={record.iconurl ? record.iconurl : ( record.icon === "school" ? <SchoolIcon/> : <WorkIcon/> )}
                     >
                       <div className="experience-textbox">
-                        <h3 className="vertical-timeline-element-title">{record.title}</h3>
-                        <h5 className="vertical-timeline-element-subtitle">{record.subtitle}</h5>
-                        <p className="vertical-timeline-element-context">
+                        <h4 className="experience-textbox-title">{record.title}</h4>
+                        <h5 className="experience-textbox-subtitle">{record.subtitle}</h5>
+
+                        <ul className="experience-textbox-context">
                           {record.content.map(record => {
-                            return(
-                                <span>
-                                {record}<br/>
-                                </span>
+                            return (
+                              <li className="experience-textbox-paragraph">
+                                  {record}
+                              </li>
                             );
                           })}
-                        </p>
+                        </ul>
                       </div>
                     </VerticalTimelineElement>
                   );

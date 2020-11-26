@@ -13,6 +13,9 @@ const useStyles = makeStyles(theme => ({
       justifyContent: 'center',
   },
   paper: {
+      width: '80vw',
+      marginTop: '12vh',
+      height: '80vh',
       backgroundColor: theme.palette.background.paper,
       border: '2px solid #000',
       boxShadow: theme.shadows[5],
@@ -33,9 +36,40 @@ function Project(props) {
     const project = props.data;
     
     return(
-        <div className="project-main">
-          <p>{project.name}</p>
-          <img src={project.image} onClick={togglePopup}></img>
+        <div className="project-main" onClick={togglePopup}>
+          <div className="project-text-div">
+            <h5>{project.name}</h5>
+            <p>{project.summary}</p>
+            <div className="project-logo-div">
+              <div className="project-frameworks-main-div">
+                <ul className="dev-icons">
+                  {project.frameworks.map(framework => {
+                    return (
+                      <li className="dev-icon" name={framework.name}>
+                        <img src={framework.url}></img>
+                        <p>{framework.name}</p>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+              <div className="project-languages-main-div">
+                <ul className="dev-icons">
+                  {project.languages.map(language => {
+                    return (
+                      <li className="dev-icon" name={language.name}>
+                        <img src={language.url}></img>
+                        <p>{language.name}</p>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="project-image-div">
+            <img className="project-image" src={project.image} ></img>
+          </div>
           <Modal 
             className={classes.modal}
             open={popup}

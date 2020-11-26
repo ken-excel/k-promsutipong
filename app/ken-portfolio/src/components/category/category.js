@@ -20,11 +20,11 @@ function Category(props) {
             <Collapse className="expand-collapse" in={expand}> 
                 <Paper className="expand-div">
                     <p>{category.background}</p>
-                    <div className="showcase-main-div">
-                    <ul className="showcases">
+                    <div className="category-projects-div">
+                    <ul className="projects-ul">
                       {category.projects.map(project => {
                         return (
-                          <li className="project" >
+                          <li className="project-li" >
                               <Project data={project}/>
                           </li>
                         );
