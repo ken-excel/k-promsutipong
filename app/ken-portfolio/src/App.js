@@ -44,8 +44,8 @@ function App() {
           <Button variant="primary" onClick={toggleTheme}>Toggle theme</Button>
           <div className="Main">
             <Introduction language={language}/>
-            <Experience language={language}/>
-            <Showcase language={language}/>
+            <Experience theme={theme} language={language}/>
+            <Showcase theme={theme} language={language}/>
             <Contact language={language}/>
           </div>
         <footer>

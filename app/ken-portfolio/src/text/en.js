@@ -23,18 +23,16 @@ const experience = {
     records:[
         {
             date: "May 2009",
-            background: "rgb(33, 150, 243)",
+            background: "1",
             icon: "school",
-            iconcolor: "#fff",
             title: "Suankularb Witthayalai School",
             subtitle: "Gifted and Talented Program",
             content:["Junior High School & High School GPA: 3.97/4.00"]
         },
         {
             date: "October 2015",
-            background: "rgb(33, 150, 243)",
+            background: "1",
             icon: "school",
-            iconcolor: "#fff",
             title: "Tohoku University",
             subtitle: "Mechanical Engineering, Robotics Course",
             content:["Bachelor's Degree",
@@ -44,18 +42,16 @@ const experience = {
         },
         {
             date: "August 2018",
-            background: "rgb(233, 30, 99)",
+            background: "2",
             icon: "work",
-            iconcolor: "#fff",
             title: "ROS Engineer @Obodroid",
             subtitle: "Internship (1 month)",
             content:["Mobile robot control and navigation development"]
         },
         {
             date: "October 2019",
-            background: "rgb(33, 150, 243)",
+            background: "1",
             icon: "school",
-            iconcolor: "#fff",
             title: "Tohoku University",
             subtitle: "Mechanical Engineering, Robotics Major",
             content:["Master's Degree",
@@ -63,18 +59,16 @@ const experience = {
         },
         {
             date: "August 2020",
-            background: "rgb(233, 30, 99)",
+            background: "2",
             icon: "work",
-            iconcolor: "#fff",
             title: "Android App Developer @Teamlab",
             subtitle: "Internship (2 weeks)",
             content:["Android application development using Kotlin and Android Architecture"]
         },
         {
             date: "February 2021",
-            background: "rgb(233, 30, 99)",
+            background: "2",
             icon: "work",
-            iconcolor: "#fff",
             title: "Software Development Engineer @Amazon Japan",
             subtitle: "Internship (TBD)",
             content:["TBD"]
@@ -192,7 +186,7 @@ const showcase = {
                 {
                     name: "Wi-Fi Navigation for an Electric Wheelchair",
                     image: require("../assets/images/showcases/dummy.png").default,
-                    summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur volutpat con",
+                    summary: "Integration of the Wi-Fi localization and SLAM-based navigation on an electric wheelchair movebase. The user is able to send the Wi-Fi signal and request the wheelchair to navigate to the user.",
                     paragraphs:["The aim of this research is to contribute to improving the aging situation in Japan in which people need a kind of mobile support. The concept resembles publicly shared bicycles which is being implemented all around the world, but in an electric wheelchair version. Given the electric wheelchair could locate a user in public spaces, it can move to another user once one person finishes using it, thus, provides a cost-efficient solution to this expensive equipment.",
                     "Regarding technical methodology, we record Wi-Fi signals profile (signal strength to each access point deployed in the environment) at each position in the map and fills the database. Then, we retrieve Wi-Fi signals at the user location and match the signals profile with one we have in the database. Finally, the robot autonomously navigates to the estimated user’s position.",
                     "This title is my bachelor’s thesis and also my first paper to be published and presented at an international conference, SII2020."
@@ -229,8 +223,8 @@ const showcase = {
                 {
                     name: "Docking system and SLAM for a Mobile Robot",
                     image: require("../assets/images/showcases/dummy.png").default,
-                    summary: " ",
-                    paragraphs:["This project is a joint research with a Robot company OLPASO. My task is to implement the docking system into the company’s robot which is differential drive type and also improve the Simultaneous Localization and Mapping (SLAM) of the robot which utilizes a laser rangefinder and stereo cameras.",
+                    summary: "A joint research aiming to implement docking system and enhance SLAM on a mobile robot.",
+                    paragraphs:["This project is a joint research with a robot company. My task is to implement the docking system into the company’s robot which is differential drive type and also improve the Simultaneous Localization and Mapping (SLAM) of the robot which utilizes a laser rangefinder and stereo cameras.",
                     "The docking system involves retrieving the dock pose (position and orientation) using computer vision technique and path planning. I utilized an open-source QR code tracker package in a ROS platform and wrote a path planning algorithm based on Bezier’s curve trajectory.",
                     "The docking system is completed and the robot is exhibited at the IREX 2019 exhibition at Tokyo, Japan."
                     ],
@@ -313,8 +307,12 @@ const showcase = {
                             url: require("../assets/images/icons/solidworks.png").default
                         },
                         {
-                            name: "Pytorch",
-                            url: require("../assets/images/icons/pytorch.svg").default
+                            name: "Unity",
+                            url: require("../assets/images/icons/unity.svg").default
+                        },
+                        {
+                            name: "Android",
+                            url: require("../assets/images/icons/android.svg").default
                         }
                     ],
                     languages:[

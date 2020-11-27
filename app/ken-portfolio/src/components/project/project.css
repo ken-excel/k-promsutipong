@@ -16,11 +16,12 @@
 }
 
 .project-frameworks-main-div {
-    width: 50%;
+    width: 45%;
+    margin-right:10%;
 }
 
 .project-languages-main-div {
-    width: 50%;
+    width: 45%;
 }
 
 .project-image-div {

@@ -21,9 +21,9 @@ export const lightTheme = {
     hover_color: '#191919',
     inverse_hover_color: '#969696',
     color1: '#8a25b1',
-    darkcolor1: '#F50057',
+    darkcolor1: '#725A7A',
     color2: '#cf1717',
-    darkcolor2: '#725A7A',
+    darkcolor2: '#F50057',
     gradient: 'linear-gradient(#8a25b1, #cf1717)',
     logo: require('../assets/images/dark_theme_logo.png').default,
   }

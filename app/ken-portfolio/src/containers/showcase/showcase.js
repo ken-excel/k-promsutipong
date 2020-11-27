@@ -10,6 +10,7 @@ import {showcase as showcase_th} from "../../text/th.js";
 import './showcase.css';
 
 function Showcase(props) {
+    let theme = props.theme;
     let showcase = showcase_en;
     switch(props.language){
     case "en": {
@@ -66,7 +67,7 @@ function Showcase(props) {
                       {showcase.categories.map(category => {
                         return (
                           <li className="category">
-                            <Category data={category}/>
+                            <Category theme={theme} data={category}/>
                           </li>
                         );
                       })}

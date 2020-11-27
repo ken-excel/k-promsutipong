@@ -11,6 +11,7 @@ import {experience as experience_th} from "../../text/th.js";
 import './experience.css';
 
 function Experience(props) {
+    let theme = props.theme;
     let experience = experience_en;
     switch(props.language){
     case "en": {
@@ -41,7 +42,7 @@ function Experience(props) {
                     <VerticalTimelineElement
                       className="vertical-timeline-element--work"
                       date={record.date}
-                      iconStyle={{ background: record.background, color: record.iconcolor }}
+                      iconStyle={{ background: (record.background == "1") ? theme.color1 : theme.color2, color: "white"}}
                       icon={record.iconurl ? record.iconurl : ( record.icon === "school" ? <SchoolIcon/> : <WorkIcon/> )}
                     >
                       <div className="experience-textbox">

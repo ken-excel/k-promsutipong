@@ -7,16 +7,20 @@
     font-weight:bold;
     width: 100%;
     text-align:left;
-}
-
-.expand-collapse {
-    margin-bottom: 3%;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius:0.25rem;
+    border:1px solid transparent;
+    padding: .375rem .75rem;
+    line-height: 1.5;
 }
 
 .expand-div {
     width: 100%;
     padding: 2% 2%;
     text-align:justify;
+    margin-bottom: 3%;
 }
 
 .projects-ul {
