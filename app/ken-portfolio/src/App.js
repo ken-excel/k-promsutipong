@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from './components/theme';
 import { GlobalStyles } from './components/globalStyles';
-
-import Button from 'react-bootstrap/Button';
+import styled from 'styled-components'
 
 import Introduction from './containers/introduction/introduction';
 import Experience from './containers/experience/experience';
@@ -28,6 +27,14 @@ function App() {
     languageStoredInLocalStorage ? languageStoredInLocalStorage : "en"
   );
 
+  let ThemeButton = styled.button`
+      background-color: ${theme.color2};
+      border-color: ${theme.inverse_hover_color};
+      &:hover {
+          background-color: ${theme.darkcolor2};
+      }
+  `;
+
   return (
     <ThemeProvider theme={theme}>
       <>
@@ -41,7 +48,9 @@ function App() {
                 storeLanguageInLocalStorage(language);
             }}
           />
-          <Button variant="primary" onClick={toggleTheme}>Toggle theme</Button>
+          <ThemeButton className="theme-toggle-button" onClick={toggleTheme}>
+            <i className={theme.icon}></i>
+          </ThemeButton>
           <div className="Main">
             <Introduction language={language}/>
             <Experience theme={theme} language={language}/>

@@ -55,7 +55,7 @@ const experience = {
             title: "Tohoku University",
             subtitle: "Mechanical Engineering, Robotics Major",
             content:["Master's Degree",
-            "IREX2019 Robot Exhibition - Joint Research with OLPASO"]
+            "IREX2019 Robot Exhibition - Joint Research with a robot company"]
         },
         {
             date: "August 2020",
@@ -181,7 +181,7 @@ const showcase = {
     categories:[
         {
             name: "Robotic Engineer",
-            background: "Being a student in Robotics major, I have developed several types of robots and integrated systems: mobile robots, human assistive devices, etc. There are several system integration, I am in charge from conceptual idea, hardware design, software implementation, to deployment. While most of my works are made for the research purpose, I also have the experience of making enterprise robots. I might have worked on both software and hardware, but I am more specialized in software especially ROS framework.",
+            background: "Being a student in Robotics major, I have developed several types of robots and integrated systems: mobile robots, human assistive devices, etc. There are several projects, I am in charge from conceptual idea, hardware design, software implementation, to deployment. While most of my works are made for the research purpose, I also have the experience of making enterprise robots. I might have worked on both software and hardware, but I am more specialized in software especially ROS framework.",
             projects:[
                 {
                     name: "Wi-Fi Navigation for an Electric Wheelchair",
@@ -565,8 +565,7 @@ const showcase = {
 
 const headertext = {
     upper: "STRIVE TO BE BETTER",
-    lower: "BEAT YESTERDAY",
-    contact: "Contact"
+    lower: "BEAT YESTERDAY"
 }
 
-export {introduction, contact, socialMediaLinks, headertext, showcase, experience};
+export {introduction, contact, socialMediaLinks, experience, showcase, headertext};

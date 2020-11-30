@@ -12,3 +12,26 @@
   z-index:9999;
   padding-bottom: 5vh;
 }
+
+.theme-toggle-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2.6rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.theme-toggle-button:hover {
+  transition: 0.3s ease-in;
+}

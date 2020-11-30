@@ -11,6 +11,7 @@ export const lightTheme = {
     darkcolor2: '#9A9CEA',
     gradient: 'linear-gradient(#00ff88, #00d0ff)',
     logo: require('../assets/images/light_theme_logo.png').default,
+    icon: 'fa fa-sun-o',
   }
   
   export const darkTheme = {
@@ -26,4 +27,5 @@ export const lightTheme = {
     darkcolor2: '#F50057',
     gradient: 'linear-gradient(#8a25b1, #cf1717)',
     logo: require('../assets/images/dark_theme_logo.png').default,
+    icon: 'fa fa-moon-o',
   }
