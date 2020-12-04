@@ -18,18 +18,14 @@
   bottom: 20px;
   right: 20px;
   z-index: 9999;
-  border: none;
-  outline: none;
+  border: none !important;
+  outline: none !important;
   cursor: pointer;
   border-radius: 2.6rem;
   width: 2.6rem;
   height: 2.6rem;
   line-height: 2.6rem;
   text-align: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 .theme-toggle-button:hover {

@@ -372,6 +372,8 @@ const showcase = {
                     "This project involves mostly basic JAVA language and a very simple application structure. For persisting user data, SQLite is used to save records locally.",
                     "There are still a lot of features which are under development such as statistics to monitor the performance and records. UI is also unrefined due to this being my very first Android application."
                     ],
+                    reference: "https://github.com/ken-excel/GymBuddy",
+                    reftext: "Github",
                     frameworks:[
                         {
                             name: "Android",
@@ -394,6 +396,8 @@ const showcase = {
                     "It has the simplest design to memo your expenses by just writing down the number and adding it. You can also change the category of the expense as well as adding the description. It also has the feature to automatically generate monthly expenses which repeat every month like housing or electricity.",
                     "Note that the application looks very unrefined since it took merely 1 day from the design to the deployment (debugging excluded)"
                     ],
+                    reference: "https://github.com/ken-excel/ExpenseTracker",
+                    reftext: "Github",
                     frameworks:[
                         {
                             name: "Android",
@@ -449,6 +453,8 @@ const showcase = {
                     summary: "My first webpage running on Nodejs, written by Reactjs, and published on Github. The content is basically random stuff about myself.",
                     paragraphs:["By following tutorials and using a template, I made a Github page using Reactjs and CSS styling. This project is all about frontend."
                     ],
+                    reference: "https://ken-excel.github.io/",
+                    reftext: "Github Page",
                     frameworks:[
                         {
                             name: "Reactjs",

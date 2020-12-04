@@ -6,12 +6,12 @@ export const lightTheme = {
     hover_color: '#969696',
     inverse_hover_color: '#191919',
     color1: '#00ff88',
-    darkcolor1: '#A2DCEE',
+    darkcolor1: '#008c4b',
     color2: '#00d0ff',
-    darkcolor2: '#9A9CEA',
+    darkcolor2: '#005799',
     gradient: 'linear-gradient(#00ff88, #00d0ff)',
     logo: require('../assets/images/light_theme_logo.png').default,
-    icon: 'fa fa-sun-o',
+    icon: 'far fa-sun',
   }
   
   export const darkTheme = {
@@ -21,11 +21,11 @@ export const lightTheme = {
     inverse_text: '#363537',
     hover_color: '#191919',
     inverse_hover_color: '#969696',
-    color1: '#8a25b1',
-    darkcolor1: '#725A7A',
+    color1: '#af1ae8',
+    darkcolor1: '#360047',
     color2: '#cf1717',
-    darkcolor2: '#F50057',
+    darkcolor2: '#870017',
     gradient: 'linear-gradient(#8a25b1, #cf1717)',
     logo: require('../assets/images/dark_theme_logo.png').default,
-    icon: 'fa fa-moon-o',
+    icon: 'far fa-moon',
   }

@@ -92,6 +92,7 @@ function Project(props) {
                         </p>
                       );
                     })}
+                    {project.reference && project.reftext && <a href={project.reference}>{project.reftext}</a>}
                   </ul>
                   <div className="frameworks-main-div">
                     <ul className="dev-icons">

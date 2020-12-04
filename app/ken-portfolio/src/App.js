@@ -28,10 +28,11 @@ function App() {
   );
 
   let ThemeButton = styled.button`
-      background-color: ${theme.color2};
-      border-color: ${theme.inverse_hover_color};
+      color: ${theme.inverse_body};
+      background-color: ${theme.color1};
+      border-color: ${theme.inverse_body};
       &:hover {
-          background-color: ${theme.darkcolor2};
+          background-color: ${theme.darkcolor1};
       }
   `;
 
