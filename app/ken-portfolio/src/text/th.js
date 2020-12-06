@@ -183,7 +183,7 @@ const showcase = {
             projects:[
                 {
                     name: "Wi-Fi Navigation for an Electric Wheelchair",
-                    image: require("../assets/images/showcases/dummy.png").default,
+                    image: require("../assets/images/showcases/wheelchair.jpg").default,
                     summary: "Integration of the Wi-Fi localization and SLAM-based navigation on an electric wheelchair movebase. The user is able to send the Wi-Fi signal and request the wheelchair to navigate to the user.",
                     paragraphs:["The aim of this research is to contribute to improving the aging situation in Japan in which people need a kind of mobile support. The concept resembles publicly shared bicycles which is being implemented all around the world, but in an electric wheelchair version. Given the electric wheelchair could locate a user in public spaces, it can move to another user once one person finishes using it, thus, provides a cost-efficient solution to this expensive equipment.",
                     "Regarding technical methodology, we record Wi-Fi signals profile (signal strength to each access point deployed in the environment) at each position in the map and fills the database. Then, we retrieve Wi-Fi signals at the user location and match the signals profile with one we have in the database. Finally, the robot autonomously navigates to the estimated user’s position.",
@@ -220,7 +220,7 @@ const showcase = {
                 },
                 {
                     name: "Docking system and SLAM for a Mobile Robot",
-                    image: require("../assets/images/showcases/dummy.png").default,
+                    image: require("../assets/images/showcases/olpaso.jpg").default,
                     summary: "A joint research aiming to implement docking system and enhance SLAM on a mobile robot.",
                     paragraphs:["This project is a joint research with a robot company. My task is to implement the docking system into the company’s robot which is differential drive type and also improve the Simultaneous Localization and Mapping (SLAM) of the robot which utilizes a laser rangefinder and stereo cameras.",
                     "The docking system involves retrieving the dock pose (position and orientation) using computer vision technique and path planning. I utilized an open-source QR code tracker package in a ROS platform and wrote a path planning algorithm based on Bezier’s curve trajectory.",
@@ -249,7 +249,7 @@ const showcase = {
                 },
                 {
                     name: "Autonomous Driving Robot from Scratch",
-                    image: require("../assets/images/showcases/dummy.png").default,
+                    image: require("../assets/images/showcases/tmex.png").default,
                     summary: "With a 3 person team, we developed an autonomous driving robot from scratch. The robot has following setup: Jetson TX2 as a computing unit and Velodyne VLP-16 3D LIDAR for mapping and odometry.",
                     paragraphs:["I built an autonomous driving robot from scratch as a part time job along with 2 other students. We split the roles into three: software, mechanical, and electrical. I took the software role in this project",
                     "While the robot is still under development and requires improvement in performance, The robot is able to move around, make a map, autonomous navigates while carrying a small cargo.",
@@ -292,7 +292,7 @@ const showcase = {
                 },
                 {
                     name: "Teleoperating Robot through VR Interface using Velocity Controlled Treadmill",
-                    image: require("../assets/images/showcases/dummy.png").default,
+                    image: require("../assets/images/showcases/treadmill.png").default,
                     summary: "This system encourages indoor exercise by entertaining the user using the VR interface. The user controls his/her 'Avatar' through the treadmill which adjusts the speed to the user automatically. The avatar can be in the virtual reality or an actual robot at the remote place",
                     paragraphs:["This is an ongoing research for my Master's Degree. The aim of research is to provide a system in which the user can access a robot located elsewhere in our world and perform tasks through the robot embodiment. Our objective is to provide a prototype for a system that is expected to be used widely in the near future.",
                     "The system requires a large variety of technologies to be integrated. Firstly, the passive control treadmill is made by augmenting an ordinary treadmill to receive velocity command from a single board computer, then we control the velocity of the treadmill based on the estimated walking pace of the user obtained by sensors. Combining the walking velocity with a handle attached by a force sensor, we now have both linear and angular velocity to be input to the robot.",
@@ -334,7 +334,7 @@ const showcase = {
                 },
                 {
                     name: "Robot Arm Control Training",
-                    image: require("../assets/images/showcases/dummy.png").default,
+                    image: require("../assets/images/showcases/manipulator.png").default,
                     summary: "The training course that every newcomers in my laboratory need to take. It provides basic knowledge about robot arm manipulator such as kinematics and implement the actual control software on a simulator and the actual robot.",
                     paragraphs:["My laboratory has a tradition of having the newcomers take a course on controlling an actual robot arm which gives the students a practical experience apart from courseworks. I took this training course and became the tutor of it in the following year for both spring and autumn semester.",
                     "The content of the training includes the theory of control like frame and coordination, kinematics, PID control, Polynomial interpolation, etc. The training requires a thorough grasp of theory and implementation on both simulation and a real machine",
@@ -365,7 +365,7 @@ const showcase = {
             projects:[
                 {
                     name: "Gym Buddy Application",
-                    image: require("../assets/images/showcases/dummy.png").default,
+                    image: require("../assets/images/showcases/gymbuddy.png").default,
                     summary: "My first Android application written in JAVA with the basic structures. It has various features designed for the gym-goers.",
                     paragraphs:["This Android application is my own side project which is made for personal use and practice programming especially in application developing.",
                     "This application is for memoing and scheduling your workout. You can create a routine of workouts and add a specific routine or workout to the schedule. Also, while doing workout, you can also use this app to memo down the weight and number of repetitions in each set easily.",
@@ -389,7 +389,7 @@ const showcase = {
                 },
                 {
                     name: "Expense Tracker Application",
-                    image: require("../assets/images/showcases/dummy.png").default,
+                    image: require("../assets/images/showcases/expensetracker.jpg").default,
                     summary: "A one-day project I made to confirm my understanding of JAVA and android application. Even though the features are simple, but it was a great challenge to build a thing in very short time.",
                     paragraphs:["This Android application is my own side project which is made for personal use and practice programming especially in application developing.",
                     "Since 2020, I started to track my expenses each month, however, I could not find a desirable way to take down the note, hence I made this application out of my own need. This application is made as simple as it could be since that’s the main purpose of it.",
@@ -413,7 +413,7 @@ const showcase = {
                 },
                 {
                     name: "Android Application Developer Internship @Teamlab",
-                    image: require("../assets/images/showcases/dummy.png").default,
+                    image: require("../assets/images/showcases/teamlab.png").default,
                     summary: "My first internship which I work as an Android app developer. I experienced working in a team with professional code management and quality control.",
                     paragraphs:["For an internship at Teamlab, I worked as an Android app developer to make an app renewal with small team. It was my first time working in the professional environment.",
                     "Code management and quality control is done properly within the team and there are several meetings each week to make sure that Android team, IOS team, and UI UX designers are on the same page.",
@@ -449,7 +449,7 @@ const showcase = {
             projects:[
                 {
                     name: "Github Page Profile",
-                    image: require("../assets/images/showcases/dummy.png").default,
+                    image: require("../assets/images/showcases/portfolio.png").default,
                     summary: "My first webpage running on Nodejs, written by Reactjs, and published on Github. The content is basically random stuff about myself.",
                     paragraphs:["By following tutorials and using a template, I made a Github page using Reactjs and CSS styling. This project is all about frontend."
                     ],
@@ -482,7 +482,7 @@ const showcase = {
                 },
                 {
                     name: "Github Page Portfolio",
-                    image: require("../assets/images/showcases/dummy.png").default,
+                    image: require("../assets/images/showcases/portfolio.png").default,
                     summary: "An updated version of my first Github page which focuses on more professional portfolio. This time, I build the project from scratch and chooses components to put in thoroughly. The project is published using Github workflow.",
                     paragraphs:["The second Github page which is made from scratch and has proper code structure, thus easier to maintain and add features in the future. The core of this frontend project is still the same with the previous one: Reactjs, Nodejs, and CSS. Additional to previous Github page, I utilise bootstrap, styled-components, etc. for styling.",
                     "This page's purpose is to serve as a portfolio which is hopefully more interactive and attractive than the paper one."
@@ -514,7 +514,7 @@ const showcase = {
                 },
                 {
                     name: "Student Portal Website",
-                    image: require("../assets/images/showcases/dummy.png").default,
+                    image: require("../assets/images/showcases/portal.png").default,
                     summary: "An ongoing project with a friend for the purpose of studying new tech stack. Additional to the tech knowledge, we focus on communication and management as a team. We tried to build features that we want in a student portal site",
                     paragraphs:["We find that our school's student portal site was hard to use at the point that we started the project. We tried to build the website with the desired features from scratch both frontend and backend.",
                     "Currently, we are starting from courses search service, which has features to narrow down the result like search box, and several filters.",

@@ -21,7 +21,9 @@ const useStyles = makeStyles(theme => ({
       boxShadow: theme.shadows[5],
       padding: theme.spacing(5, 5, 5, 5),
       color: 'black',
-      overflow: 'auto'
+      overflow: 'auto',
+      display: 'flex',
+      flexDirection: 'row'
   },
 }));
 
@@ -84,16 +86,18 @@ function Project(props) {
               <div className={classes.paper}>
                 <div className="project-popup-text-div">
                   <h3 className="project-title">{project.name}</h3>
-                  <ul className="project-textbox-context">
-                    {project.paragraphs.map(paragraph => {
-                      return (
-                        <p className="project-textbox-paragraph">
-                            {paragraph}
-                        </p>
-                      );
-                    })}
-                    {project.reference && project.reftext && <a href={project.reference}>{project.reftext}</a>}
-                  </ul>
+                  <div>
+                    <ul className="project-textbox-context">
+                      {project.paragraphs.map(paragraph => {
+                        return (
+                          <p className="project-textbox-paragraph">
+                              {paragraph}
+                          </p>
+                        );
+                      })}
+                      {project.reference && project.reftext && <a href={project.reference}>{project.reftext}</a>}
+                    </ul>
+                  </div>
                   <div className="frameworks-main-div">
                     <ul className="dev-icons">
                       {project.frameworks.map(framework => {
@@ -120,6 +124,7 @@ function Project(props) {
                   </div>
                 </div>
                 <div className="project-popup-image-div">
+                  <img className="project-popup-image" src={project.image} ></img>
                 </div>
               </div>
             </Fade>
