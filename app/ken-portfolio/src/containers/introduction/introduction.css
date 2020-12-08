@@ -43,3 +43,9 @@
 .greeting-paragraph{
     line-height: 1.2;
 }
+
+@media (max-width: 850px) {
+    .greeting-paragraph-div{
+        visibility: hidden;
+    }
+  }

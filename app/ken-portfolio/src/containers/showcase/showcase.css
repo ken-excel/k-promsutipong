@@ -42,8 +42,18 @@
     width: 80px;
 }
 
+@media (max-width: 850px) {
+    .dev-icon > img {
+        height: 50px;
+        width: 50px;
+    }
+    .dev-icon > p {
+        font-size: 10px;
+    }
+}
+
 .dev-icon > p {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .categories {
