@@ -64,3 +64,20 @@
     flex-direction: column;
     list-style: none;
 }
+
+@media (max-width: 600px) and
+(orientation : portrait)  {
+    .navigation-nav-div {
+        display:none;
+    }
+    
+    .navigation-language-div-mobile{
+        padding: 3% 0;
+        display:flex;
+        font-size: 15px;
+    }
+
+    .navigation-language-select{
+        padding: 5% 5%;
+    }
+}

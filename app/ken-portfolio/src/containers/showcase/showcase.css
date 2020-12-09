@@ -18,6 +18,7 @@
 
 .dev-icons:hover {
     overflow-x: overlay;
+    -webkit-overflow-scrolling: touch;
 }
 
 .dev-icons::-webkit-scrollbar {
@@ -28,6 +29,14 @@
 .dev-icons::-webkit-scrollbar-thumb {
     background: #393812;
     border-radius: 1ex;
+}
+
+@media (max-width: 600px) and
+(orientation : portrait) {
+    .dev-icons {
+        overflow-x: overlay;
+        -webkit-overflow-scrolling: touch;
+    }
 }
 
 .dev-icon {
