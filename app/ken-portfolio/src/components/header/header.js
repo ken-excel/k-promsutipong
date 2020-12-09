@@ -69,6 +69,17 @@ function Header(props) {
                             </li>
                         </ul>
                     </div>
+                    <div className="navigation-language-div-mobile">
+                        <select
+                            className="navigation-language-select"
+                            value={props.language}
+                            onChange={e => props.handleSetLanguage(e.target.value)}
+                        >
+                            <option value="en">EN</option>
+                            <option value="jp">JP</option>
+                            <option value="th">TH</option>
+                        </select>
+                    </div>
                 </div>
             </div>
         </Fade>  

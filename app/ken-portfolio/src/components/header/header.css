@@ -51,6 +51,26 @@ li {
     text-decoration: none;
 }
 
+.navigation-language-div-mobile{
+    display:none;
+}
+
 .navigation-language-select{
     padding: 10% 10%;
+}
+
+@media (max-width: 850px) {
+    .navigation-nav-div {
+        display:none;
+    }
+    
+    .navigation-language-div-mobile{
+        padding: 3% 0;
+        display:flex;
+        font-size: 15px;
+    }
+
+    .navigation-language-select{
+        padding: 5% 5%;
+    }
 }
